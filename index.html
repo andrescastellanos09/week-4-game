@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crystal game</title>
+
+  <link rel="stylesheet" type="text/css" href="/Users/CA/Desktop/week-4-game/assets/css/style.css">
+</head>
+<body>
+
+  
+
+  <!-- Note that this div is now empty. We will fill it dynamically -->
+  
+  <div class="header">
+  <h1>Crystal Collector</h1>
+</div>
+<div class="instructions">
+  <h3>Here's how you play the game</h3>
+  </br>
+  <ol>
+      <li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
+      <li>There are four crystals below.</li>
+      <ul>
+          <li id="crystal">Crystal</li>
+          <li id="diamond">Diamond</li>
+          <li id="emerald">Emerald</li>
+          <li id="gem">Gem</li>
+      </ul>
+      <li>By clicking on a precious, you will add a specific amount of points to your total score.</li>
+      <li>You win the game by matching your total score to the random number.</li>
+      <li>You lose the game if your total score goes above the random number.</li>
+      <li>The value of each crystal is hidden from you until you click on it.</li>
+      <li>Each time when the game starts, the game will change the values of each crystal.</li>
+  </ol>
+</div>
+<div class="numberToMatch">
+  <h2>Number To Get:
+      <span id= "number-to-guess"></span>
+  </h2>
+</div>
+<div class="winsAndLosses">
+  <h2>Wins:
+      <span id= "numberWins"></span>
+      </br>
+      Losses: 
+      <span id= "numberLosses"></span>
+  </h2>
+</div>
+<div class="gems">
+  <img src="assets/images/crystal.jpeg" class=gemImage id="one" alt="crystal">
+  <img src="assets/images/diamond.jpg" class=gemImage id="two" alt="diamond">
+  <img src="assets/images/emerald.jpg" class=gemImage id= "three" alt="emerald">
+  <img src="assets/images/gem.png" class=gemImage id= "four" alt="Gem">
+</div>
+<div class="userTotal">
+  <h2>Your total score is:
+      <span id="finalTotal"></span>
+  </h2>
+</div>
+ 
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/Users/CA/Desktop/week-4-game/assets/javascript/game.js"></script>
+
+</body>
+</html>

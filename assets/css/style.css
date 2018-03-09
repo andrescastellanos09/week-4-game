@@ -1,0 +1,74 @@
+body{
+	background-image: url("/Users/CA/Desktop/week-4-game/assets/images/background.jpg")
+}
+div{
+	background-color: yellowgreen;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+div.header, div.gems{
+	background-color: yellowgreen;
+}
+div.header, div.instructions{
+    width: 50%;
+    background-color: orangered;
+    font-family: 'Pacifico', cursive;
+}
+
+div.header {
+    background-color: blueviolet;
+}
+
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+
+
+#one{
+    width: 120px;
+    height: 120px;
+
+}
+#two{
+	width: 120px;
+    height: 120px;
+    
+}
+#three{
+	width: 120px;
+    height: 120px;
+    
+}
+#four{
+	width: 120px;
+    height: 120px;
+    
+}
